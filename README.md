@@ -1,4 +1,4 @@
-# Ecophere_Le_Memorial
+# Ecophere_le_Memorial_VN
 <h3>Projet :</h3>
 Prototype de Visual novel, codé sur le moteur de jeu Ren'Py et Atom.<br>
 <h3>Pitch :</h3>
