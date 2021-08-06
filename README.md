@@ -1,6 +1,6 @@
 # Ecophere_le_Memorial_VN
 <h3>Projet :</h3>
-Prototype de Visual novel, codé sur le moteur de jeu Ren'Py.<br>
+Prototype de Visual novel, codé sur le moteur de jeu Ren'Py (basé sur le Python).<br>
 <h3>Qu'est-ce qu'un Visual novel ?</h3>
 C'est un média à mi-chemin entre jeux vidéo et romans dont vous êtes le héros, ou l'héroïne ! Le scénario propose aux joueurs des choix qui vont influencer la suite de l'histoire. Ce projet propose une expérience de lecture d'une vingtaine de minutes.<br>
 <h3>Pitch :</h3>
