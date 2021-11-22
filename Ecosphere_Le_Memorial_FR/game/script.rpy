@@ -98,7 +98,7 @@ define config.autosave_on_choice = True
 
 #Timer choix narratifs (documentation Ren'py)
 # How long the player has to make a choice in timeout seconds.
-default timeout = 5.0
+default timeout = 10.0
 
 # The label the player is sent to if they fail to make a choice in the time
 # allotted. If None, the timeout is disabled.
@@ -218,7 +218,7 @@ label start:
 
     label plan002:
 
-        "Je n'aime pas ce ton... Voyons voir si sa patience a des limites !"
+        "Je n'aime pas ce ton... Pour qui elle se prend celle-là, au juste ?"
 
         show side leily confiante onlayer overlay:
             pos (0,715)
@@ -345,7 +345,7 @@ label start:
     hide element air
 
     "Cette marque est gravée à même la chair, sur le dos de chaque main, tel un pacte avec la nature."
-    "Et permet à tout à chacun de contrôler l'élément qui lui a été affilié à la naissance."
+    "Et permet à tout un chacun de contrôler l'élément qui lui a été affilié à la naissance."
     "J’ai la particularité d’en avoir deux : l’Eau et l’Air."
 
 #Sequence003
@@ -447,7 +447,7 @@ label start:
 
     show side leily soucieuse onlayer overlay:
         pos (0,715)
-    g "Nous devrions vous arrêter sur le champs !"
+    g "Nous devrions vous arrêter sur-le-champs !"
 
     show side leily colere onlayer overlay:
         pos (0,715)
@@ -713,7 +713,7 @@ label start:
         with dissolve
 
         "Je regarde en direction du Mémorial. L'aile Ouest est effectivement en chantier, les ouvriers sont en plein travail."
-        "J'aperçois l'un d'entre eux qui jette des gravas dans un conteneur similaire s’y trouve. Il est presque plein."
+        "J'aperçois l'un d'entre eux qui jette des gravas dans un conteneur similaire en contrebas. Il est presque plein."
         "Très intéressant... Le conteneur vide se trouve probablement à proximité du port pour qu'un navire vienne évacuer les gravas."
         "Si mon hypothèse est exacte, les ouvriers vont bientôt venir intervertir les deux conteneurs..."
         "Il y a plus élégant comme entrée en matière mais c’est le moyen le plus simple d’entrer."
@@ -762,7 +762,7 @@ label start:
 
         show side leily neutre onlayer overlay:
             pos (0,715)
-        "Après qu’ils aient déposer le conteneur en bas du chantier, j’attendrai qu’ils s’éloignent pour entrer en scène !"
+        "Après qu’ils aient déposé le conteneur en bas du chantier, j’attendrai qu’ils s’éloignent pour entrer en scène !"
 
         show side leily confiante onlayer overlay:
             pos (0,715)
@@ -845,7 +845,7 @@ label start:
         $ timeout_label = "plan010"
 
         menu:
-            "Rester cacher":
+            "Rester cachée":
                 jump plan009
 
             "Sortir de la calèche":
@@ -977,7 +977,7 @@ label start:
 
         show side leily soupir onlayer overlay:
             pos (0,715)
-        "Repérée… J’aurais peut-être dût rester cachée."
+        "Repérée… J’aurais peut-être dû rester cachée."
 
 #Sequence006
 
@@ -1033,7 +1033,7 @@ label start:
 
         show side leily neutre onlayer overlay:
             pos (0,715)
-        "Après vérifié que j'étais bien menottée au siège, l’officière quitte la pièce. Elle a appelé un sous-fifre pour venir me surveiller."
+        "Après avoir vérifié que j'étais bien menottée au siège, l’officière quitte la pièce. Elle a appelé un sous-fifre pour venir me surveiller."
 
         hide minerve
         with moveoutleft
@@ -1092,7 +1092,7 @@ label start:
         with dissolve
 
         "Mais j’aperçois un groupe d’une dizaine de visiteurs passer la zone de contrôles, je pense pouvoir m’infiltrer parmi eux."
-        "J’ouvre la fenêtre du bureau et que l’enjambe discrètement avant que le groupe de visiteurs ne me remarque."
+        "J’ouvre la fenêtre du bureau et je l’enjambe discrètement avant que le groupe de visiteurs ne me remarque."
 
         show bg exterieur memorial
         with pixellate
@@ -1136,7 +1136,7 @@ label start:
         play sound "audio/ecosphere.WAV"
 
         "C'est un orbe capable de contrôler la nature : pour faire simple, il permet de maîtriser les quatre éléments simultanément !"
-        "Un commanditaire m'a mandaté pour le dérober... D'où ma présence ici !"
+        "Un commanditaire m'a mandatée pour le dérober... D'où ma présence ici !"
         "Mon précieux butin trône au centre du rez-de-chaussée, sur un piédestal en marbre, de manière à être la première chose que les visiteurs découvrent en entrant."
 
         show leily contrarie at center
@@ -1410,7 +1410,7 @@ label start:
         with dissolve
 
         cm "Si j'avais été honnête dès le début, vous auriez refusé cette mission par manque d'enjeux..."
-        cm "Mais pas de panique, vous n'êtes pas venu ici pour rien."
+        cm "Mais pas de panique, vous n'êtes pas venue ici pour rien."
         l "Et quelle est la suite des festivités, au juste ?"
         cm "Vous allez retrouver un indice qui nous permettra de retrouver la trace du véritable Écosphère."
 
@@ -1422,7 +1422,7 @@ label start:
         show leily contrarie at center
         with dissolve
 
-        cm "Lorsque vous m'aurez remis l'orbe vous aurez la récompense que nous avons convenu."
+        cm "Lorsque vous m'aurez remis l'orbe, vous aurez la récompense dont nous avons convenu."
 
         show leily soucieuse at center
         with dissolve
@@ -1443,7 +1443,7 @@ label start:
         show leily neutre at center
         with dissolve
 
-        cm "Disons que je suis plein de surprise."
+        cm "Disons que je suis plein de surprises."
         cm "Maintenant, vous allez emprunter les escaliers pour rejoindre le huitième étage et vous rendre dans la Biblitothèque."
 
         show leily amuse at center
@@ -1474,7 +1474,7 @@ label start:
         "Ce que je cherche est dissimulé dans le réservoir d’eau de la cuvette."
 
         cm "Vous avez terminé ?"
-        l "Patience... Je suis simplement venu chercher mon talisman, le Neptune."
+        l "Patience... Je suis simplement venue chercher mon talisman, le Neptune."
 
         show neptune with zoomin:
             xalign 0.65
@@ -1926,7 +1926,7 @@ label start:
 
         show side leily amuse onlayer overlay:
             pos (0,715)
-        "Mes hommes étaient chargés de faire feu avec mon navire, la Rose noire, dix-sept heure précise pour créer une diversion."
+        "Mes hommes étaient chargés de faire feu avec mon navire, la Rose noire, à dix-sept heure précise pour créer une diversion."
 
         show side leily defiante onlayer overlay:
             pos (0,715)
@@ -2013,7 +2013,7 @@ label start:
 
         show side leily surprise onlayer overlay:
             pos (0,715)
-        "L’officière que j’avais croiser à l’entrée m’attends de l’autre côté de la passerelle."
+        "L’officière que j’avais croisée à l’entrée m’attends de l’autre côté de la passerelle."
 
         show minerve hautaine:
             xalign 0.65
@@ -2085,11 +2085,11 @@ label start:
 
         show side leily amuse onlayer overlay:
             pos (0,715)
-        "C’est mon équipage ! Mes hommes étaient chargés de faire feu avec mon navire, la Rose noire, dix-sept heure précise pour créer une diversion."
+        "C’est mon équipage ! Mes hommes étaient chargés de faire feu avec mon navire, la Rose noire, à dix-sept heure précise pour créer une diversion."
 
         show side leily defiante onlayer overlay:
             pos (0,715)
-        "J’avais prévu dans mon plan que j'aurais quelques difficultés avec la sécurité du Mémorial dès que j’aurais voler la montre, ou plutôt l’Écosphère à la base !"
+        "J’avais prévu dans mon plan que j'aurais quelques difficultés avec la sécurité du Mémorial dès que j’aurais volé la montre, ou plutôt l’Écosphère à la base !"
 
         show minerve colerique:
             xalign 0.65
